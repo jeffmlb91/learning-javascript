@@ -57,3 +57,65 @@ function reverse(word) {
   return reversed;
 }
 console.log("The reversed word is: " + " " + reverse("mangoes"));
+
+//Exercise
+/*
+In the first-expressions.js file in the code editor below, write an expression that:
+
+uses at least 3 different arithmetic operators.
+equals 42.
+Hint: +, -, *, /, and % are possible arithmetic operators
+
+Running Your Code
+Enter the following in the terminal:
+*/
+
+//STRING DATA TYPE: string
+
+let testName = "Hi there";
+console.log(typeof testName);
+
+//Concatinate
+
+const student = {
+  name: "Thomas",
+  guardian: "Freddy",
+};
+
+const teacher = {
+  name: "Mrs. Wilson",
+  room: "N122",
+  age: 78,
+};
+
+let message =
+  student.name +
+  " " +
+  "has a guardian called " +
+  student.guardian +
+  ". " +
+  student.name +
+  " has a teacher called " +
+  teacher.name +
+  " and she is " +
+  teacher.age;
+console.log(message);
+
+// Adding multiple line in the response message
+//This will display text like writting a paragraph. We used the syntax with ",\n\n" or '.\n'
+let note =
+  teacher.name +
+  ",\n\n" +
+  "Please excuse " +
+  student.name +
+  ".\n" +
+  "He was late because he eating food.\n\n";
+
+console.log(note);
+
+//Template Literals
+/*
+Denoted with backticks (` `) instead of single quotes ( '' ) or double quotes ( "" ), template literals can contain placeholders which are represented using ${expression}. This makes it much easier to build strings.
+*/
+let newMessage = `${student.name} please go see ${teacher.name}`;
+console.log(newMessage);
