@@ -119,3 +119,28 @@ Denoted with backticks (` `) instead of single quotes ( '' ) or double quotes ( 
 */
 let newMessage = `${student.name} please go see ${teacher.name}`;
 console.log(newMessage);
+
+// CONVERTING THE  DEGREE FROM F to CONVERTING
+/*
+Formula  F = C x 1.8 + 32
+*/
+
+//Exercise
+//* 1. Set the fahrenheit variable to the correct value using the
+//  *    celsius variable and the formula above
+// * 2. Log the fahrenheit variable to the console
+
+// const celsius = 12;
+// const fahrenheitfahrenheit = celsius * 1.8 + 32;
+// console.log(fahrenheit);
+
+// Convert F top C
+// We know that the formula is T(°C) = (T(°F) - 32) × 5/9
+const farah = 157;
+const cius = ((farah - 32) * 5) / 9;
+console.log(cius);
+
+// Accessing the index value of a letter in a String
+let prenom = "James";
+prenom = "James"[2];
+console.log(prenom);
